@@ -1,0 +1,10 @@
+.component_news { background: #eee; padding: 20px; }
+.component_news img { float: left; margin-right: 10px; margin-bottom: 10px; }
+.component_news_floatfix { clear: both; visibility: hidden; font-size: 1px; }
+.component_news td, #component_news_existing td, #component_news_add td, #component_news_edit td { padding-right: 10px; }
+
+#component_news_add input, #component_news_edit input { margin-bottom: 10px; width: 300px; }
+#component_news_add select, #component_news_edit select { margin-bottom: 10px; width: 300px; }
+#component_news_add textarea, #component_news_edit textarea { margin-bottom: 10px; width: 300px; height: 140px;}
+
+#component_news_edit { display: none; }

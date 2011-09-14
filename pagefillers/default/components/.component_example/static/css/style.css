@@ -1,0 +1,8 @@
+.component_example { background: #eee; padding: 20px; }
+.component_example td, #component_example_existing td, #component_example_add td, #component_example_edit td { padding-right: 10px; }
+
+#component_example_add input, #component_example_edit input { margin-bottom: 10px; width: 400px; }
+#component_example_add select, #component_example_edit select { margin-bottom: 10px; width: 400px; }
+#component_example_add textarea, #component_example_edit textarea { margin-bottom: 10px; width: 400px; height: 140px;}
+
+#component_example_edit { display: none; }

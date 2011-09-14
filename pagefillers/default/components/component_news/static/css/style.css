@@ -1,0 +1,16 @@
+.component_news { background: #eee; }
+.component_news img { float: left; margin-right: 10px; margin-bottom: 10px; }
+.component_news_floatfix { clear: both; visibility: hidden; font-size: 1px; }
+.component_news td, #component_news_existing td, #component_news_add td, #component_news_edit td { padding-right: 10px; }
+
+.component_news_left { background: url('../images/knop_groot.png') no-repeat; width: 177px; height: auto !important; height: 145px; min-height: 145px; margin-left: -20px; position: relative; float: left; }
+    .component_news_left img { margin: 0px; float: none; margin-top: 17px; margin-left: 24px; }
+    .component_news_left div { margin-left: 24px; font-size: 13px; color: #aaa; }
+.component_news_content { margin-left: 160px; margin-bottom: 10px; }
+    .component_news_content h2 { font-size: 26px; padding-top: 5px; }
+
+#component_news_add input, #component_news_edit input { margin-bottom: 10px; width: 300px; }
+#component_news_add select, #component_news_edit select { margin-bottom: 10px; width: 300px; }
+#component_news_add textarea, #component_news_edit textarea { margin-bottom: 10px; width: 300px; height: 140px;}
+
+#component_news_edit { display: none; }

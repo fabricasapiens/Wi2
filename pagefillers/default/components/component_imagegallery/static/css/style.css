@@ -1,0 +1,23 @@
+.component_imagegallery { padding: 10px; margin: 0px auto; }
+.component_imagegallery a  { border: none !important; }
+.component_imagegallery td, #component_imagegallery_existing td, #component_imagegallery_add td, #component_imagegallery_edit td { padding-right: 10px; }
+
+.component_imagegallery_thumbnails { float: left; width: 300px; padding-top: 15px; }
+.component_imagegallery_thumbnail { float: left; margin: 5px; width: 60px; height: 60px; overflow: hidden; }
+.component_imagegallery_folder { float: left; width: 60px; height: 60px; overflow: hidden; background: url(../images/60/folder_images.png) no-repeat; position: relative; }
+    .component_imagegallery_foldername { position: absolute; height: 15px; font-size: 14px; top: 15px; right: 0px; left: 0px; background: #fff; opacity: 0.8; padding: 5px; text-align: center; overflow: hidden; }
+.component_imagegallery_image { float: left; }
+    .component_imagegallery_imageinfo { height: 20px; text-align: right; font-size: 12px; }
+    .component_imagegallery_imageinfo span { opacity: 0.7; margin-left: 5px; }
+    .component_imagegallery_fullimage { background: url(../images/16/enlarge.png) no-repeat; padding-left: 15px; margin: 0px; border: none; text-decoration: none; }
+    .component_imagegallery_previous { background: url(../images/16/previous.png) no-repeat; padding-left: 15px; cursor: pointer; }
+    .component_imagegallery_next { background: url(../images/16/next.png) no-repeat; padding-left: 15px; cursor: pointer; }
+.component_imagegallery_clearfix { font-size: 1px; visibility:none; clear: both; }
+
+#component_imagegallery_add input, #component_imagegallery_edit input { margin-bottom: 10px; width: 400px; }
+#component_imagegallery_add select, #component_imagegallery_edit select { margin-bottom: 10px; width: 400px; }
+#component_imagegallery_add textarea, #component_imagegallery_edit textarea { margin-bottom: 10px; width: 400px; height: 140px;}
+
+#component_imagegallery_edit_tabs ul { margin-left: 20px; }
+
+#component_imagegallery_edit { display: none; }

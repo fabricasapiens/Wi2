@@ -1,0 +1,20 @@
+.component_productshop { padding: 10px; margin: 0px auto; }
+.component_productshop td, #component_productshop_existing td, #component_productshop_add td, #component_productshop_edit td { padding-right: 10px; }
+
+.component_productshop_thumbnails { float: left; width: 300px; padding-top: 15px; }
+.component_productshop_thumbnail { float: left; margin: 5px; width: 60px; height: 60px; overflow: hidden; }
+.component_productshop_image { float: left; }
+    .component_productshop_imageinfo { height: 20px; text-align: right; font-size: 12px; }
+    .component_productshop_imageinfo span { opacity: 0.7; margin-left: 5px; }
+    .component_productshop_fullimage { background: url(../images/16/enlarge.png) no-repeat; padding-left: 15px; margin: 0px; border: none; text-decoration: none; }
+    .component_productshop_previous { background: url(../images/16/previous.png) no-repeat; padding-left: 15px; cursor: pointer; }
+    .component_productshop_next { background: url(../images/16/next.png) no-repeat; padding-left: 15px; cursor: pointer; }
+.component_productshop_clearfix { font-size: 1px; visibility:none; clear: both; }
+
+#component_productshop_add input, #component_productshop_edit input { margin-bottom: 10px; width: 400px; }
+#component_productshop_add select, #component_productshop_edit select { margin-bottom: 10px; width: 400px; }
+#component_productshop_add textarea, #component_productshop_edit textarea { margin-bottom: 10px; width: 400px; height: 140px;}
+
+#component_productshop_edit_tabs ul { margin-left: 20px; }
+
+#component_productshop_edit { display: none; }

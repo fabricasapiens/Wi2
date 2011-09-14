@@ -1,0 +1,13 @@
+.component_picasaweblinks { background: #eee; padding: 20px; }
+.component_picasaweblinks td, #component_picasaweblinks_existing td, #component_picasaweblinks_add td, #component_picasaweblinks_edit td { padding-right: 10px; }
+
+#component_picasaweblinks_add input, #component_picasaweblinks_edit input { margin-bottom: 10px; width: 300px; }
+#component_picasaweblinks_add select, #component_picasaweblinks_edit select { margin-bottom: 10px; width: 300px; }
+#component_picasaweblinks_add textarea, #component_picasaweblinks_edit textarea { margin-bottom: 10px; width: 300px; height: 140px;}
+
+#component_picasaweblinks_edit { display: none; }
+
+.component_picasaweblinks h2 { font-size: 20px; margin-bottom: 10px; }
+.component_picasaweblinks a { border: none; text-decoration: none; }
+.component_picasaweblinks img { float: left; margin-right: 10px; margin-bottom: 10px; text-decoration: none; }
+.component_picasaweblinks_floatfix { clear: both; visibility: hidden; font-size: 1px; }

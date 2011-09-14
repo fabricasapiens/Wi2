@@ -1,0 +1,18 @@
+.component_calendar { padding: 20px; }
+.component_calendar img { float: left; margin-right: 10px; margin-bottom: 10px; }
+.component_calendar_floatfix { clear: both; visibility: hidden; font-size: 1px; }
+.component_calendar td, #component_calendar_existing td, #component_calendar_add td, #component_calendar_edit td { padding-right: 10px; }
+
+.component_calendar_item {  }
+    .component_calendar_date { background: url('../images/knop.png') no-repeat; height: 108px; width: 108px; position: relative; margin-left: -20px; float: left; }
+        .component_calendar_date_day { position: absolute; top: 20px; left: 28px; font-size: 46px; color: #000; }
+        .component_calendar_date_month { position: absolute; top: 68px; left: 28px; font-size: 14px; color: #000; }
+        .component_calendar_back { position: absolute; top: 110px; left: 28px; }
+    .component_calendar_content { margin-left: 90px; padding-top: 15px; }
+        .component_calendar_item h2 { }
+
+#component_calendar_add input, #component_calendar_edit input { margin-bottom: 10px; width: 300px; }
+#component_calendar_add select, #component_calendar_edit select { margin-bottom: 10px; width: 300px; }
+#component_calendar_add textarea, #component_calendar_edit textarea { margin-bottom: 10px; width: 300px; height: 140px;}
+
+#component_calendar_edit { display: none; }

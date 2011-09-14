@@ -1,0 +1,27 @@
+.component_webshop { margin-top: 20px; margin-bottom: 20px; }
+.component_webshop .component_webshop_item { display: block; margin-bottom: 20px; position: relative; } 
+.component_webshop img { float: left; margin-right: 20px; }
+.component_webshop_text { float: left; }
+.component_webshop_addtocart { position: absolute; right: 0px; top: 0px; }
+.component_webshop_addtocart img { margin-right: 5px; }
+.component_webshop_item_additional { display: none; margin-top: 10px; }
+.component_webshop_clearfix { visibility: none; clear: both; font-size: 1px; }
+
+.component_webshop_orderformcontainer { display: none; }
+
+#formo label { max-width: 160px; width: auto !important; width: 160px; display: block; float: none; }
+#formo input, #formo textarea, #formo input.submit, #formo select { margin-left: 20px; position: relative; width: 200px; top: -22px; }
+#formo .errorMessage { margin-left: 20px; position: relative; top: -22px; }
+
+#component_webshop_add td, #component_webshop_edit td, #component_webshop_settings td, #component_webshop_existing td { padding-right: 10px; padding-bottom: 5px; }
+#component_webshop_add table.mceLayout { width: 400px !important; }
+#component_webshop_add table.mceLayout td { padding-right: 0px; }
+#component_webshop_add input, #component_webshop_edit input, #component_webshop_settings input { margin-bottom: 10px; width: 400px; }
+#component_webshop_add select, #component_webshop_edit select { margin-bottom: 10px; width: 400px; }
+#component_webshop_add select.component_webshop_linkedfile { margin-bottom: 10px; width: 200px; }
+#component_webshop_add textarea, #component_webshop_edit textarea { margin-bottom: 10px; width: 400px; height: 140px;}
+
+#component_webshop_edit { display: none; }
+
+#formo label { width: 150px; display: block; float: none; }
+#formo input, #formo textarea, #formo input.submit, #formo select { margin-left: 160px; position: relative; top: -22px; }

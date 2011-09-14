@@ -1,0 +1,5 @@
+*
+!.gitignore
+!/example
+!/example/*
+!/example/**/*

@@ -1,0 +1,4 @@
+#form { position: relative; }
+#formo label { float: left; width: 100px; }
+#formo input, #formo select, #formo textarea { width: 300px; margin-right: 10px; }
+#formo input.submit { margin-left: 100px; }
